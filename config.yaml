@@ -1,0 +1,6 @@
+html_file: "example/test.html"
+typ_folder: "example/assets/typ"
+svg_folder: "example/assets/typ"
+css_file: ""
+text_size: 50
+typst_command: "typst"

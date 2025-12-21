@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Strict Format Test</title>
+</head>
+<body>
+    <h1>Equation Tests</h1>
+    
+    <!-- Valid: no spaces between $ and < -->
+    <!-- $E=m c^2$<energy> -->
+    <div class="equation">
+      <img src="assets/typ/energy.svg" alt="E=mc^2">
+    </div>
+    
+    <!-- Valid: equation with spaces inside -->
+    <!--
+        $x^2 + y^2 = z^2$<pythagoras>
+    -->
+    <div class="equation">
+      <img src="assets/typ/pythagoras.svg" alt="x^2 + y^2 = z^2">
+    </div>
+    
+    <!-- INVALID: will NOT be detected (has space between $ and <) -->
+    <!-- $a^2+b^2=c^2$ <triangle> -->
+    
+</body>
+</html> 

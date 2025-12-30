@@ -1,7 +1,6 @@
 /* ========== Цветовые переменные ========== */
 :root {
-    --color-quote-border: #9fd3ff;
-    --spacing-list-item: 10px;
+    --eq-text-color: #9fd3ff;
 }
 
 .equation {

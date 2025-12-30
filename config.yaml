@@ -7,6 +7,6 @@ text_color: ""
 # If you have a color variable inside css that you 
 # want to use as a text color for eq, specify it below
 css_file: "example/style.css"
-css_color_var: "--color-quote-border"  # Optional: CSS variable name
+css_color_var: "--eq-text-color"  # Optional: CSS variable name
 text_size: 20
 typst_command: "typst"

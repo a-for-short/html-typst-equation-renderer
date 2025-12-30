@@ -1,7 +1,7 @@
 /* ===== START OF HEADER ===== */
 #set text(
-  size: 50pt,
-  fill: rgb("#000000")
+  size: 20pt,
+  fill: rgb("#9fd3ff")
 )
 
 #set page(

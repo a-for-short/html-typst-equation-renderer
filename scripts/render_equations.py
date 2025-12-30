@@ -49,10 +49,11 @@ def main():
     
     print(f"\nProcessing {len(equations)} equation(s)...")
     
-    # Create Typst files
+# Create Typst files
     try:
         write_typst_files(equations, config.typ_folder, 
-                         config.css_file, config.text_size)
+                        config.css_file, config.text_size,
+                        config.text_color, config.css_color_var)
         print(f"✓ Created .typ files in {config.typ_folder}")
     except Exception as e:
         print(f"✗ Error creating Typst files: {e}")

@@ -12,6 +12,8 @@ class Config:
     typ_folder: str = "./assets/typ"
     svg_folder: str = "./assets/svg"
     css_file: str = field(default_factory=lambda: "")  # Optional, default empty
+    text_color: str = field(default_factory=lambda: "")  # Optional, default empty
+    css_color_var: str = field(default_factory=lambda: "--color-quote-border")  # Optional CSS variable name
     text_size: int = 20
     typst_command: str = "typst"
     

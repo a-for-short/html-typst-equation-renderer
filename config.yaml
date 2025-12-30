@@ -1,7 +1,7 @@
 # Specify your variables
 html_file: "example/test.html"
 typ_folder: "example/assets/typ"
-svg_folder: "example/assets/typ"
+svg_folder: "example/assets/svg"
 # text_color is a manual override over css.
 text_color: ""
 # If you have a color variable inside css that you 

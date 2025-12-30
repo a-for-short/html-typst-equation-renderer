@@ -1,24 +1,16 @@
 /* ========== Цветовые переменные ========== */
 :root {
-    --color-bg-dark: #2a2a2a;
-    --color-bg-lighter: #b7b7b7;
-    --color-bg-light: #f2f2f2;
-    --color-text-primary: #eaeaea;
-    --color-text-secondary: #e0e0e0;
-    --color-text-tertiary: #d0d0d0;
-    --color-text-muted: #aaaaaa;
-    --color-text-em: #f0f0f0;
-    --color-text-strong: #ffffff;
-    --color-text-dark: #1b1b1b;
-    --color-link: #9fd3ff;
-    --color-link-hover: #b7e1ff;
-    --color-link-rgb: 159, 211, 255;
     --color-quote-border: #9fd3ff;
-    --color-quote-border-hover: #6fb8f0;
-    --color-quote-author: #9fd3ff;
-    --color-white-rgb: 255, 255, 255;
-    --color-list-dots: rgba(var(--color-link-rgb), 0.3);
-    --color-list-date: var(--color-text-muted);
-    --color-list-hover: rgba(var(--color-link-rgb), 0.1);
     --spacing-list-item: 10px;
+}
+
+.equation {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.equation image {
+    max-width: 100%;
+    height: auto;
 }
